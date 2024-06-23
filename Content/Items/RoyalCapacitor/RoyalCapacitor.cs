@@ -29,20 +29,10 @@ namespace Content.RoyalCapacitor.Items.RoyalCapacitor
             Item.noMelee = true;
             Item.noUseGraphic = true;
         }
-        public override void UpdateAccessory(Item item, Player player, bool hideVisual)
-        {
-            
-        }
 
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {
-            Projectile.NewProjectile(player.GetSource_ItemUse(player.HeldItem), position, velocity, ModContent.ProjectileType<RoyalCapacitorMark>(), damage, knockback, player.whoAmI);
-
-            if (Main.keyState.IsKeyDown(Keys.Q))
-            {
-                Projectile.NewProjectile(player.GetSource_ItemUse(player.HeldItem), position, velocity, ModContent.ProjectileType<Placeholder>(), damage, knockback, player.whoAmI);
-            }
-            return false;
+            return true;
         }
     }
 }

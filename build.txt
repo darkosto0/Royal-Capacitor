@@ -1,5 +1,5 @@
 displayName = Royal Capacitor
 author = Darkosto
 version = 1.0
-homepage = https://github.com/darkosto0/Katana-ZERO-Weapons
+homepage = https://github.com/darkosto0/Royal-Capacitor
 buildIgnore = bin\*, obj\*, *.csproj, Properties\*, bin\*

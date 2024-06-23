@@ -3,4 +3,4 @@ It is a Risk of Rain 2 Item that summons a lightning strike on the nearest enemy
 
 Along that, this mod adds a special accesory slot meant just for equipment, as i plan on expanding this mod and hopefully adding all equipment from RoR2
 
-Click on the Homepage to view the source code.
+The source code is available on [url=https://github.com/darkosto0/Royal-Capacitor]GitHub[/url].
